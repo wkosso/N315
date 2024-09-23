@@ -1,0 +1,106 @@
+.home{
+
+
+.home-section{
+  
+width: 100%;
+
+.homeing-box{
+background-image: url(../assets/images/patrick-hendry-vZZqktl4w7Q-unsplash.jpg);
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+.home-text{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia;
+}
+
+.home-button{
+
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: Arial;
+
+}
+
+.home-button a{
+    text-decoration: none;
+    color: black;
+}
+
+}
+
+
+.home-cont{
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+    .home-contimg1{
+        background-image: url(../assets/images/ouael-ben-salah-xud3m0uBDKI-unsplash.jpg);
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+
+    .home-contimg2{
+        background-image: url(../assets/images/lemahijo_-pg-fEeZIgM8iMk-unsplash.jpg);
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+
+    .home-contimg3{
+        background-image: url(../assets/images/ouael-ben-salah-UO1m3BX9zIc-unsplash.jpg);
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+
+
+    .home-conttext{
+
+        width: 800px;
+    
+
+    }
+}
+
+}
+

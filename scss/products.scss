@@ -1,0 +1,165 @@
+.products{
+
+
+    .products-section{
+        width: 100%;
+        height: 100%;
+.prod-img-box{
+
+
+    background-image: url(../assets/images/download\ \(4\).jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 300px;
+    
+
+}
+
+
+.about-text-box{
+
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia;
+    text-align: center;
+}
+
+.pone{
+    color: greenyellow;
+}
+
+
+
+
+.flex-prodbox{
+
+
+}
+
+    .prod-title{
+
+        font-weight: bold;
+        font-size: 20px;
+        color: orange;
+        font-family: Cambria;
+        letter-spacing: 2px;
+
+text-align: center;
+    }
+
+
+    
+    .prod-mainimg{
+        background-image: url(../assets/images/The-Maple-Leaf-jb-poty-spillwords.jpg);
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 90px;
+    }
+
+
+    .prod-mainimg2{
+        background-image: url(../assets/images/pin-oak-iStock-521541750.jpg);
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 90px;
+    }
+
+
+    .prod-mainimg3{
+        background-image: url(../assets/images/birch\ sweet\ fall\ color\ 1\ \ S\ Chatscape\ 11-3-13_0.jpg);
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 90px;
+    }
+
+
+    .prod-mainimg4{
+        background-image: url(../assets/images/images\ \(4\).jfif);
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 90px;
+    }
+
+    .prod-mainimg5{
+        background-image: url(../assets/images/33773_ca_object_representations_media_40885_large-1120x840-c-default.jpg);
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 90px;
+    }
+
+    .prod-mainimg6{
+        background-image: url(../assets/images/fall-color-Fagus-grandifolia.png);
+        width: 150px;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 90px;
+    }
+
+
+
+
+    
+    .prod-maintext{
+
+        color: brown;
+        font-family: 'Lucida Sans';
+        font-size: medium;
+        padding-top: 10px;
+
+    }
+
+    .prodwrap{
+
+
+
+width: 700px;
+height: 100%;
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: 0 auto;
+  }
+
+
+  .prodwrap1{
+
+   // background-color: indianred;
+
+   margin: 20px;
+  }
+
+}
+
+
+
+
+    
+
+
+
+
+
+
+}

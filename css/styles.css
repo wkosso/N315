@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-org {
+  color: whitesmoke;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: monospace;
+}
+
+.footer-icons .fa-brands {
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+
+.home .home-section {
+  width: 100%;
+}
+.home .home-section .homeing-box {
+  background-image: url(../assets/images/patrick-hendry-vZZqktl4w7Q-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home .home-section .homeing-box .home-text {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia;
+}
+.home .home-section .homeing-box .home-button {
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+}
+.home .home-section .homeing-box .home-button a {
+  text-decoration: none;
+  color: black;
+}
+.home .home-section .home-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home .home-section .home-contimg1 {
+  background-image: url(../assets/images/ouael-ben-salah-xud3m0uBDKI-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+}
+.home .home-section .home-contimg2 {
+  background-image: url(../assets/images/lemahijo_-pg-fEeZIgM8iMk-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+}
+.home .home-section .home-contimg3 {
+  background-image: url(../assets/images/ouael-ben-salah-UO1m3BX9zIc-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+}
+.home .home-section .home-conttext {
+  width: 800px;
+}
+
+.about .about-section {
+  width: 100%;
+  height: 100%;
+}
+.about .about-section .about-img-box {
+  background-image: url(../assets/images/fall_800x400__800x400.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .about-section .about-text-box {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia;
+  text-align: center;
+}
+.about .about-section .pone {
+  color: greenyellow;
+}
+.about .about-section .about-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about .about-section .about-main .main-text {
+  width: 300px;
+  height: 500px;
+}
+.about .about-section .about-main .main-text .main-text1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: orange;
+  font-family: Cambria;
+  letter-spacing: 2px;
+}
+.about .about-section .about-main .main-text .main-text2 {
+  color: brown;
+  font-family: "Lucida Sans";
+  font-size: medium;
+  padding-top: 10px;
+}
+.about .about-section .about-main .figure-headtitle {
+  font-weight: bold;
+  color: burlywood;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.about .about-section .about-main .figure-headimg {
+  background-image: url(../assets/images/irene-strong-v2aKnjMbP_k-unsplash.jpg);
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 90px;
+}
+
+.products .products-section {
+  width: 100%;
+  height: 100%;
+}
+.products .products-section .prod-img-box {
+  background-image: url(../assets/images/download\ \(4\).jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.products .products-section .about-text-box {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia;
+  text-align: center;
+}
+.products .products-section .pone {
+  color: greenyellow;
+}
+.products .products-section .prod-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: orange;
+  font-family: Cambria;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.products .products-section .prod-mainimg {
+  background-image: url(../assets/images/The-Maple-Leaf-jb-poty-spillwords.jpg);
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 90px;
+}
+.products .products-section .prod-mainimg2 {
+  background-image: url(../assets/images/pin-oak-iStock-521541750.jpg);
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 90px;
+}
+.products .products-section .prod-mainimg3 {
+  background-image: url(../assets/images/birch\ sweet\ fall\ color\ 1\ \ S\ Chatscape\ 11-3-13_0.jpg);
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 90px;
+}
+.products .products-section .prod-mainimg4 {
+  background-image: url(../assets/images/images\ \(4\).jfif);
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 90px;
+}
+.products .products-section .prod-mainimg5 {
+  background-image: url(../assets/images/33773_ca_object_representations_media_40885_large-1120x840-c-default.jpg);
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 90px;
+}
+.products .products-section .prod-mainimg6 {
+  background-image: url(../assets/images/fall-color-Fagus-grandifolia.png);
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 90px;
+}
+.products .products-section .prod-maintext {
+  color: brown;
+  font-family: "Lucida Sans";
+  font-size: medium;
+  padding-top: 10px;
+}
+.products .products-section .prodwrap {
+  width: 700px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.products .products-section .prodwrap1 {
+  margin: 20px;
+}
+
+.products-section .form-section {
+  padding: 30px;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.products-section #fname {
+  height: 50px;
+  width: 290px;
+  border: orange solid 2px;
+}
+.products-section label {
+  font-weight: bold;
+  color: indianred;
+}
+.products-section .submit {
+  background-color: indianred;
+  color: white;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  border: none;
+}
